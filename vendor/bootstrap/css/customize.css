@@ -1,0 +1,44 @@
+h1, h2, h3, h4, h5, h6,p{
+	font-family: 'Lora', serif;
+	line-height: 1.5;
+}
+
+.intro{
+	margin-top: 3rem !important;
+	
+}
+
+.navbar{
+font-family: 'Lora', serif;	
+}
+
+.card-section{
+	margin-top: 3rem !important;
+}
+
+.card{
+	border: none;
+	margin-bottom: 2rem;
+}
+
+.card-img{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.card-img-overlay{
+	background-color: rgba(0,0,0,0.7);
+	padding-left: 6rem;
+	padding-right: 6rem;
+	padding-top: 5rem;
+}
+
+.card-title, .card-text{
+	text-align: center;
+	
+}
+
+.card-title{
+	margin-top: 3rem !important;
+}
