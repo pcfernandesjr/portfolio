@@ -3,7 +3,11 @@ h1, h2, h3, h4, h5, h6,p{
 	line-height: 1.5;
 }
 
-.intro{
+p{
+	font-size: 1.25rem;
+}
+
+.intro, article{
 	margin-top: 3rem !important;
 	
 }
@@ -34,6 +38,12 @@ font-family: 'Lora', serif;
 	padding-top: 5rem;
 }
 
+.card-img-overlay:hover{
+	background-color: rgba(0,0,0,0.9);
+
+}
+
+
 .card-title, .card-text{
 	text-align: center;
 	
@@ -41,4 +51,13 @@ font-family: 'Lora', serif;
 
 .card-title{
 	margin-top: 3rem !important;
+}
+
+.section-title{
+	font-weight: 700;
+}
+
+.article-top-image{
+	width:100%;
+	height: auto;
 }
