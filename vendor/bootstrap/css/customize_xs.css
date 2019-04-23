@@ -1,0 +1,49 @@
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px){
+
+	.card-section{
+		margin-top: 1rem !important;
+}
+
+	.card{
+		border: none;
+		margin-bottom: 1rem;
+		height: auto;
+}
+
+	.card-img{
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+}
+
+	.card-img-overlay{
+		background-color: rgba(0,0,0,0.7);
+		padding-left: 1rem;
+		padding-right: 1rem;
+		padding-top: 1rem;
+		transition: background-color 0.5s ease;
+}
+
+	.card-img-overlay:hover{
+		background-color: rgba(0,0,0,0.9);
+
+}
+
+
+	.card-title, .card-text{
+		text-align: center;
+		font-size: 1.3rem;
+	
+}
+
+	.card-title{
+		position: absolute;
+    	top: 60%;
+    	left: 38%;
+    	height: 30%;
+   	 	width: 75%;
+		margin: -20% 0% 0% -25% !important;
+}
+
+}
